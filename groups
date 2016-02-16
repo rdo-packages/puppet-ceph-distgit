@@ -1,3 +1,5 @@
-# UUID                                  	Group Name
-#
-7414cc4c16377c1c11288205a391404775d17dd0	puppet-ceph-distgit-ptl
+# UUID          Group Name
+6ddfecad023c6f4fa3ac8c4d2583c502ea675a73 	Non-Interactive Users
+b22c15f4933b404a31ec152d831cd6a6bcbdf3bf       	puppet-ceph-distgit-core
+7414cc4c16377c1c11288205a391404775d17dd0        	puppet-ceph-distgit-ptl
+global:Registered-Users		Registered Users
