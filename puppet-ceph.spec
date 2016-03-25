@@ -10,7 +10,7 @@ Source0:        https://github.com/stackforge/puppet-ceph/archive/%{version}.tar
 
 BuildArch:      noarch
 
-Requires:       puppet-apt
+#Requires:       puppet-apt
 Requires:       puppet-apache
 Requires:       puppet-concat
 Requires:       puppet-inifile
