@@ -1,6 +1,6 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 Name:           puppet-ceph
-Version:        2.0.0
+Version:        2.1.0
 Release:        1%{?dist}
 Summary:        Community Developed Ceph Module
 License:        Apache-2.0
@@ -46,6 +46,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/ceph/
 
 
 %changelog
+* Wed Sep 21 2016 Haikel Guemar <hguemar@fedoraproject.org> 2.1.0-1
+- Update to 2.1.0
+
 * Fri Sep 16 2016 Haikel Guemar <hguemar@fedoraproject.org> 2.0.0-1
 - Update to 2.0.0
 
