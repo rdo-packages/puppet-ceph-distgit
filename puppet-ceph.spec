@@ -1,4 +1,8 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
+
+%{?dlrn: %global tarsources %{name}-%{upstream_version}}
+%{!?dlrn: %global tarsources openstack-ceph-%{upstream_version}}
+
 Name:           puppet-ceph
 Version:        XXX
 Release:        XXX
@@ -22,7 +26,7 @@ Requires:       puppet >= 2.7.0
 Community Developed Ceph Module
 
 %prep
-%setup -q -n %{name}-%{upstream_version}
+%setup -q -n %{tarsources}
 
 find . -type f -name ".*" -exec rm {} +
 find . -size 0 -exec rm {} +
@@ -46,3 +50,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/ceph/
 
 
 %changelog
+
