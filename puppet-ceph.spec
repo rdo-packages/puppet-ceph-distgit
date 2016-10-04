@@ -1,8 +1,4 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
-
-%{?dlrn: %global tarsources %{name}-%{upstream_version}}
-%{!?dlrn: %global tarsources openstack-ceph-%{upstream_version}}
-
 Name:           puppet-ceph
 Version:        XXX
 Release:        XXX
