@@ -26,7 +26,7 @@ Requires:       puppet >= 2.7.0
 Community Developed Ceph Module
 
 %prep
-%setup -q -n %{tarsources}
+%setup -q -n openstack-ceph-%{upstream_version}
 
 find . -type f -name ".*" -exec rm {} +
 find . -size 0 -exec rm {} +
