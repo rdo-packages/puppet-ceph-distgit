@@ -51,3 +51,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/ceph/
 
 %changelog
 
+# REMOVEME: error caused by commit http://git.openstack.org/cgit/openstack/puppet-ceph/commit/?id=ad02bd9558d7eec03437e03bd6422c4ecc5b36f7
