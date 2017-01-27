@@ -3,7 +3,7 @@ Name:           puppet-ceph
 Version:        XXX
 Release:        XXX
 Summary:        Community Developed Ceph Module
-License:        Apache-2.0
+License:        ASL 2.0
 
 URL:            https://launchpad.net/puppet-ceph
 
