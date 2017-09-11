@@ -1,0 +1,9 @@
+Code-Review+2: hguemar <hguemar@fedoraproject.org>
+Workflow+1: hguemar <hguemar@fedoraproject.org>
+Verified-1: Jenkins CI <admin@rpmfactory.beta.rdoproject.org>
+Verified+2: hguemar <hguemar@fedoraproject.org>
+Submitted-by: hguemar <hguemar@fedoraproject.org>
+Submitted-at: Mon, 11 Sep 2017 22:57:38 +0000
+Reviewed-on: https://review.rdoproject.org/r/9426
+Project: puppet/puppet-ceph-distgit
+Branch: refs/heads/pike-rdo
