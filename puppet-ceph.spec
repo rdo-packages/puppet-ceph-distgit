@@ -16,6 +16,8 @@ Requires:       puppet-apache
 Requires:       puppet-concat
 Requires:       puppet-inifile
 Requires:       puppet-stdlib
+Requires:       puppet-openstacklib
+Requires:       puppet-keystone
 Requires:       puppet >= 2.7.0
 
 %description
