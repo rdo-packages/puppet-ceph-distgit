@@ -63,3 +63,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/ceph/
 * Mon Apr 29 2019 RDO <dev@lists.rdoproject.org> 3.0.0-1
 - Update to release 3.0.0
 
+# REMOVEME: error caused by commit https://opendev.org/openstack/puppet-ceph/commit/82343e1cda01952dbe2ca160dfe41e2a53dd2e12
