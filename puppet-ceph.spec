@@ -1,9 +1,9 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x2426b928085a020d8a90d0d879ab7008d0896c8a
+%global sources_gpg_sign 0xbba3b1e67a7303dd1769d34595bf2e4d09004514
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 Name:           puppet-ceph
-Version:        XXX
-Release:        XXX
+Version:        3.1.1
+Release:        1%{?dist}
 Summary:        Community Developed Ceph Module
 License:        ASL 2.0
 
@@ -65,5 +65,8 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/ceph/
 
 
 %changelog
+* Wed Apr 06 2022 RDO <dev@lists.rdoproject.org> 3.1.1-1
+- Update to 3.1.1
+
 
 
