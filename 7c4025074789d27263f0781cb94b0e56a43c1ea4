@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4a8d0749_b46610af",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 682
+      },
+      "writtenOn": "2024-10-02T04:01:31Z",
+      "side": 1,
+      "message": "```\nDEBUG: Errors during downloading metadata for repository \u0027highavailability\u0027:\nDEBUG:   - Status code: 503 for https://mirrors.centos.org/metalink?repo\u003dcentos-highavailability-9-stream\u0026arch\u003dx86_64\u0026protocol\u003dhttps,http (IP: 8.43.85.67)\nDEBUG: Error: Failed to download metadata for repo \u0027highavailability\u0027: Cannot prepare internal mirrorlist: Status code: 503 for https://mirrors.centos.org/metalink?repo\u003dcentos-highavailability-9-stream\u0026arch\u003dx86_64\u0026protocol\u003dhttps,http (IP: 8.43.85.67)\n```\n\nLooks like an infra problem ?",
+      "revId": "7c4025074789d27263f0781cb94b0e56a43c1ea4",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
